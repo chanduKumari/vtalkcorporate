@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #012b65;
+}
+
+.container p {
+  display: inline-block;
+  color: white;
+  margin-left: 187px;
+  margin-right: -151px;
+  margin-top: 12px;
+  margin-bottom: 11px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: #002b64;
+}
+
+.cm-e-menu {
+  background-color: white;
+    margin-left: 341px;
+    position: relative;
+    margin-top: -80px;
+    z-index: 1000;
+    margin-right: -14px;
+    color: black;
+    font-weight: 200;
+    height: 80px;
+    padding-left: 114px;
+}
+
+.cm-e-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.cm-e-menu li {
+  position: relative;
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: capitalize !important;
+  list-style: none;
+
+  -webkit-transition: background-color ease-in 300ms;
+  -moz-transition: background-color ease-in 300ms;
+  -ms-transition: background-color ease-in 300ms;
+  -o-transition: background-color ease-in 300ms;
+  transition: background-color ease-in 300ms;
+}
+
+
+
+.cm-e-menu ul li.topmenu {
+  display: inline-table;
+  padding: 17px;
+  padding-left: 0px;
+  padding-top: 35px;
+  font-size: 14px;
+ 
+}
+
+.cm-e-menu .topmenu ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.cm-e-menu li:hover>ul {
+  display: table;
+}
+
+.cm-e-menu ul.submenu {
+  top: 100%;
+  left: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+
+.cm-e-menu ul.submenu .submenu {
+  top: -0.5em;
+  left: 100%;
+  font-size: 1em;
+}
+
+.cm-e-menu ul.submenu li {
+  padding: 1.2em 3.5em;
+  font-size: 0.9rem;
+}
+
+.cm-e-menu li.divider {
+  padding: 0;
+  border-top: 1px solid gray;
+  margin: 0.5rem auto 0.3rem;
+  cursor: default;
+}
+
+.cm-e-menu li.divider:hover {
+  background-color: transparent;
+}
+
+.vtalk {
+  background-color: white;
+  width: 317px;
+  margin-top: 2px;
+  position: inherit;
+  margin-left: -23px;
+  height: 80px;
+  padding-left: 50px;
+}
+
+.cm-e-menu ul.submenu a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #002B64;
+}
+
+fieldset {
+  box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 349px;
+    background-color: #FFCC01;
+    margin-top: -416px;
+    margin-left: 910px;
+    padding: 26px;
+    margin-bottom: 95px;
+    height: 443px;
+}
+
+input {
+  font-size: 15px;
+  padding: 14px;
+  border-left: 10px solid #FFCC01;
+}
+
+.fieldset {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 349px;
+  text-align: center;
+  margin-left: 910px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 50px;
+  height: 335px;
+  margin-top: -431px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+
+select {
+  font-size: 15px;
+  padding: 14px;
+  width: 233px;
+  border-left: 10px solid #FFCC01;
+}
+
+input[type=submit] {
+  font-size: 15px;
+  padding: 12px;
+  border: 1px solid #002B64;
+  background-color: #002B64;
+  color: white;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 129px;
+  border-radius: 5px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  color: #2EA3F2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.column a{
+  color: #2EA3F2;
+  text-decoration: none;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.smile{
+  background-color: #002b64;
+  height: 214px;
+  width: 100%;
+  margin-left: -13px;
+  padding-top: 20px;
+  line-height: 28px;
+  margin-top: -3px;
+  padding-left: 25px;
+}
+.column {
+  float: left;
+  width: 17%;
+  color: #2EA3F2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 32px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer{
+  width: 209px;
+  display: block;
+  padding: 11px;
+  margin-left: 5px;
+  margin-top: 18px;
+}
+.icons3 a{
+  float: left;
+  width: 30px;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.face1{
+  width: 38px;
+  padding: 9px;
+}
+.rat1{
+  margin-top: 109px;
+    margin-left: 126px;
+}
+body{
+  background-color: #e7e7e7;
+
+}
