@@ -185,7 +185,7 @@ input[type=submit] {
 
 .rat1 {
   margin-top: 109px;
-  margin-left: 126px;
+  margin-left: 126px; 
 }
 
 body {
@@ -193,10 +193,12 @@ body {
 }
 
 @media (max-width:380px) {
+  body{
+    position: fixed;
+}
   .container {
     background-color: #012b65;
     display: block;
-    position: inherit;
     padding-top: 2px;
     padding-bottom: 5px;
     margin-left: -3pc;

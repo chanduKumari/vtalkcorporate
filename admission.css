@@ -24,6 +24,9 @@ input[type=button] {
     padding-bottom: 10px;
   }
   @media (max-width:380px){
+    body{
+        position: fixed;
+    }
     fieldset{
         border-radius: 5px;
     background-color: white;
@@ -41,5 +44,10 @@ input[type=button] {
         padding-top: 10px;
         margin-left: -243px;
         padding-bottom: 10px;
+    }
+    body {
+        margin-left: 252px;
+        width: 649px;
+        background-color: #ECEEF8;
     }
   }

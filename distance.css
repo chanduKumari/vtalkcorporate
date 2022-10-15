@@ -613,11 +613,13 @@ form {
 }
 
 @media (max-width:380px) {
+    body{
+        position: fixed;
+    }
 
     .container {
         background-color: #012b65;
         display: block;
-        position: inherit;
         padding-top: 2px;
         padding-bottom: 5px;
         margin-left: -3pc;
