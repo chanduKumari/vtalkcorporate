@@ -23,3 +23,23 @@ input[type=button] {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  @media (max-width:380px){
+    fieldset{
+        border-radius: 5px;
+    background-color: white;
+    padding-bottom: 20px;
+    width: 40%;
+    margin-left: -250px;
+    }
+    input[type=button] {
+        background-color: #3F51B5;
+        color: white;
+        font-size: 17px;
+        padding-left: 19px;
+        padding-right: 19px;
+        border-radius: 2px;
+        padding-top: 10px;
+        margin-left: -243px;
+        padding-bottom: 10px;
+    }
+  }
