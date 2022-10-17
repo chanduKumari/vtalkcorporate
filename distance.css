@@ -614,7 +614,12 @@ form {
 
 @media (max-width:380px) {
     body{
-        position: fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        position:absolute;
+        overflow-y:scroll;
+        overflow-x:hidden;
     }
 
     .container {
@@ -623,7 +628,7 @@ form {
         padding-top: 2px;
         padding-bottom: 5px;
         margin-left: -3pc;
-        margin-right: -1pc;
+        margin-right: 0pc;
         line-height: 7px;
     }
 
@@ -643,7 +648,7 @@ form {
 
     .vtalk {
         background-color: white;
-        width: 116%;
+        width: 97%;
         position: inherit;
         padding-left: 26px;
     }
@@ -675,6 +680,7 @@ form {
     .backgroundimg img {
         position: inherit;
         margin-top: 12px;
+        margin-right: 0pc;
     }
 
     form {
@@ -687,6 +693,7 @@ form {
         margin-top: 40px;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         text-align: center;
         padding-left: 2px;
         font-size: 13px;
@@ -697,6 +704,7 @@ form {
         margin-top: 98pc;
         background-color: #002b64;
         color: white;
+        margin-right: 1px;
         padding: 25px;
         text-align: center;
         font-size: 13px;
@@ -713,6 +721,7 @@ form {
         margin-top: 1pc;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         padding: 10px;
         text-align: center;
         font-size: 13px;
@@ -728,6 +737,7 @@ form {
         margin-top: 93pc;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         padding: 10px;
         text-align: center;
         font-size: 13px;
@@ -743,6 +753,7 @@ form {
         margin-top: 94pc;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         padding: 10px;
         text-align: center;
         font-size: 13px;
@@ -758,6 +769,7 @@ form {
         margin-top: 94pc;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         padding: 10px;
         text-align: center;
         font-size: 13px;
@@ -773,7 +785,9 @@ form {
         margin-top: 64pc;
         background-color: #ffcc01;
         color: #181D23;
+        margin-right: 1px;
         padding: 10px;
+        margin-right: 26px;
         text-align: center;
         font-size: 13px;
     }
@@ -800,7 +814,7 @@ form {
     .input5 {
         background-color: #FCE4A3;
         height: 41px;
-        width: 318px;
+        width: 350px;
         margin-top: 1418px;
         padding: 18px;
         text-align: center;
@@ -836,7 +850,7 @@ form {
     .smile {
         background-color: #002b64;
         height: 695px;
-        width: 128%;
+        width: 100%;
         margin-left: -15px;
         padding-top: -30px;
         padding-top: 410px;
@@ -857,14 +871,14 @@ form {
 
     .footer1 {
         box-sizing: border-box;
-        padding: 12px;
+        padding: 10px;
         margin-top: 16px;
-        margin-left: 13px;
+        margin-left: 24px;
         float: left;
         border: 1px solid #DEDEDE;
         background-color: #DEDEDE;
         height: 290px;
-        width: 287px;
+        width: 326px;
         color: #202124;
         font-family: arial, sans-serif;
         font-size: 13px;
@@ -890,12 +904,12 @@ form {
         box-sizing: border-box;
         padding: -22px;
         margin-top: 1pc;
-        margin-left: 15px;
+       margin-left: 25px;
         float: left;
         border: 1px solid #DEDEDE;
         background-color: #DEDEDE;
         height: 219px;
-        width: 289px;
+        width: 323px;
         color: #202124;
         font-family: arial, sans-serif;
         font-size: 13px;
@@ -924,7 +938,7 @@ form {
         border: 1px solid #DEDEDE;
         background-color: #DEDEDE;
         height: 294px;
-        width: 289px;
+        width: 323px;
         color: #202124;
         font-family: arial, sans-serif;
         font-size: 13px;
@@ -953,7 +967,7 @@ form {
         border: 1px solid #DEDEDE;
         background-color: #DEDEDE;
         height: 237px;
-        width: 299px;
+        width: 323px;
         color: #202124;
         font-family: arial, sans-serif;
         font-size: 13px;
