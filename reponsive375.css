@@ -1,0 +1,177 @@
+@media (max-width:375px){
+    body{
+        max-width: 375px;
+    }
+    .navbar {
+        flex-direction: column;
+        position: sticky;
+
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+      right: 34px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        display: none;
+
+    }
+
+
+    .nav-list .list-item {
+        display: block;
+        background-color: white;
+        color: #666;
+        border-bottom: 2px solid black(0,0,0,.03);
+        width: 80%;
+        float: right;
+        margin-right: 8%;
+        margin-top: -10px;
+    }
+    .tea{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .img{
+        position: relative;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    .logo{
+        float: left;
+    }
+
+    .active {
+        display: block;
+    }
+    .box1{
+        width: 100%;
+        border-radius: 15px;
+        display: center;
+        vertical-align: middle;
+    }
+    .search{
+        width: 70%;
+        display: center;
+        vertical-align: middle;
+    }
+    .request{
+        width: 70%;
+        display: center;
+        vertical-align: middle;
+        margin-left: 200px;
+    }
+    .apply{
+        width: 70%;
+        display: center;
+        vertical-align: middle;
+        margin-left: 208px;
+    }
+    
+    .slider {
+        width: 253%;
+    }
+    .explore {
+        width: 219%;
+    }
+    .explore h1 {
+        font-size: 45px;
+        margin-left: 88px;
+    }
+    .explore p{
+        margin-left: 88px;
+    }
+    .test {
+        width: 196%;
+    }
+    .doc {
+        margin-left: 127px;
+        width: 173%;
+    }
+    .doc img {
+        height: 25pc;
+    }
+    .university {
+        width: 268%;
+    }
+    #slider {
+        width: 268%;
+    }
+    table {
+        margin-left: 60px;
+        width: 234%;
+        letter-spacing: -2px;
+    }
+    td{
+        font-size: 21px;
+    }
+    .tab {
+        margin-left: 10pc;
+        width: 159%;
+    }
+    .top {
+        width: 268%;
+        margin-top: 61px;
+    }
+    .video {
+        margin-right: -66px;
+    }
+    .pat img {
+        width: 270%;
+    }
+    .CHOOSE {
+        width: 270%;
+    }
+    .swiper {
+        width: 269%;
+        height: 100%;
+    }
+    .company h1{
+        width: 113%;
+    }
+    .company img {
+        width: 124%;
+    }
+    .best img {
+        width: 129%;
+        margin-left: 506px;
+    }
+    .vibe {
+        margin-top: 43px;
+        width: 270%;
+    }
+    .video2 {
+        margin-left: 2px;
+    margin-right: -59px;
+    }
+    .god {
+        width: 1009px;
+    }
+    .god img {
+        width: 24%;
+        padding-right: 57px;
+    }
+    .smile {
+        background-color: #042444;
+        height: 968px;
+        width: 1034px;
+        padding-top: 74px;
+        margin-left: -24px;
+        line-height: 39px;
+        margin-top: -33px;
+        padding-bottom: 48%;
+    }
+    .fot {
+        margin-top: -289px;
+        margin-left: 29px;
+        margin-right: 6%;
+    }
+    .contact {
+        width: 54%;
+    }
+}
